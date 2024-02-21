@@ -26,7 +26,7 @@
     "href": "reports/prospectus.html",
     "title": "Prospectus",
     "section": "",
-    "text": "This section introduces the topic of the prospectus, its relevance, and specific research question(s) or hypothesis(es) that will be addressed.\n\n\nThis section summarizes previous research related to the topic and identifies gaps that the current study aims to address. It is important to provide a comprehensive review of the literature to demonstrate the significance of the research question and the potential contributions of the study. The literature review should conclude with a clear statement of the research question or hypothesis that the study aims to address.",
+    "text": "This study is about sentimental levels and pronouns of texts in relation to genre. Genres with dissimilar explicit or implicit requirements can result in different word choices, uses of pronouns, depending on the specific requisites on objectivity of the genre. Formal writing genres, like essays, often expect authors to write in scientific manners, employing less sentimental words, more objective words, and third-person pronouns, whereas fictions or personal letters have contradicting expectations for their authors. In this way, through text analysis and sentiment analysis and comparing and contrasting sentimental levels and pronounces used in different genres and results of analysis from each genre, the study can hypothetically predict of the genre of the text, based on sentimental and pronounces the text contained.\n\n\nThis section summarizes previous research related to the topic and identifies gaps that the current study aims to address. It is important to provide a comprehensive review of the literature to demonstrate the significance of the research question and the potential contributions of the study. The literature review should conclude with a clear statement of the research question or hypothesis that the study aims to address.",
     "crumbs": [
       "Reports",
       "Prospectus"
@@ -44,22 +44,11 @@
     ]
   },
   {
-    "objectID": "reports/prospectus.html#data-preparation",
-    "href": "reports/prospectus.html#data-preparation",
+    "objectID": "reports/prospectus.html#data-preparation-analysis",
+    "href": "reports/prospectus.html#data-preparation-analysis",
     "title": "Prospectus",
-    "section": "Data preparation",
-    "text": "Data preparation\nThis section describes the process of acquiring, organizing, and enriching the data that will be used to address the research question or hypothesis. It should include a detailed description of the data sources, the process of collecting and cleaning the data, and any additional data enrichment steps that will be taken to prepare the data for analysis.",
-    "crumbs": [
-      "Reports",
-      "Prospectus"
-    ]
-  },
-  {
-    "objectID": "reports/prospectus.html#data-analysis",
-    "href": "reports/prospectus.html#data-analysis",
-    "title": "Prospectus",
-    "section": "Data analysis",
-    "text": "Data analysis\nThis section describes the feature selection and engineering, analysis techniques, and evaluation process that will be used to address the research question or hypothesis. It should include a detailed description of the features that will be used in the analysis, the specific analysis techniques that will be applied, and the process of evaluating the results.",
+    "section": "Data preparation & Analysis",
+    "text": "Data preparation & Analysis\nPhase 1: Harvest social media data and compile a corpus\nIn this stage, automated tools can be used to query records of social media data, extract this data, and compile it into a corpus (citation记得写). Ideally, API of AO3 can be used to extract data from it, and the collected data will incorporate into a larger database like COCA, which contains writings in other genres. The collected data will first be categorized based on their genre, such as fiction, novel, or letter, etc.\nPhase 2: Categorize and subset variables\nAll the sentimental words will be extracted from the text and classified into the basic categories, using the method of sentimental analysis. The average level of sentiments in each genre will be calculated. Each level of sentiments will be assigned a distinct value (E.g. Super positive/negative-1, positive/negative-0.5, neutral-0).\nThen, similar methods will be employed to find relation between the use of pronounce and genre. All the pronouns used in text will also be extracted from the text and classified them to be first, second, or third-pronoun. The percentage of each type of pronouns used in each text will be calculated, then the average percentage of each type of pronouns used in each genre can also be calculated. The preferences in the use of pronouns in each genre can then be indicated.\nPhase 3: Analyze and visualize\nFirst, using sum of all the values in each text to divide the total number of sentimental words will be the average strong level of sentimental words in the text, and using this value, the average strong level of sentimental words in each genre will then be found. Tables representing sentimental level of text in relation of genre can then be drawn. Similarly, tables that visualize relation between genre and preference in the use of pronouns, or pronoun preference and strong level of sentimental words in each genre will be displayed, which will either prove or falsify the hypothesis.",
     "crumbs": [
       "Reports",
       "Prospectus"
@@ -70,17 +59,17 @@
     "href": "index.html",
     "title": "README",
     "section": "",
-    "text": "Include an abstract-style summary of your project here which includes the research area, rationale, aims, and findings.",
+    "text": "Sentiment analysis has emerged to be a popular area to in analyzing social media discourse, with the publicization of various platforms. It classified sentimental expressions into five basic categories: super positive, positive, super negative, negative and neutral, drawing general conclusions on individuals’ sentiments and their sentimental level in diverse posts. The same method can be employed to analyze other genres of writings, exploring sentimental levels and tendency in dissimilar genres. This study aims to find correlation among the use of pronounces and sentimental words and genres. Through employing methods of text analysis and sentiment analysis and comparing and contrasting uses of sentimental words and pronounces in different genres and results of analysis from each genre, the study is able to predictition of the genre of the text, based on sentimental words and pronounces the text contained.",
     "crumbs": [
       "README"
     ]
   },
   {
-    "objectID": "index.html#project-title",
-    "href": "index.html#project-title",
+    "objectID": "index.html#sentimental-words-pronounces-and-genres",
+    "href": "index.html#sentimental-words-pronounces-and-genres",
     "title": "README",
     "section": "",
-    "text": "Include an abstract-style summary of your project here which includes the research area, rationale, aims, and findings.",
+    "text": "Sentiment analysis has emerged to be a popular area to in analyzing social media discourse, with the publicization of various platforms. It classified sentimental expressions into five basic categories: super positive, positive, super negative, negative and neutral, drawing general conclusions on individuals’ sentiments and their sentimental level in diverse posts. The same method can be employed to analyze other genres of writings, exploring sentimental levels and tendency in dissimilar genres. This study aims to find correlation among the use of pronounces and sentimental words and genres. Through employing methods of text analysis and sentiment analysis and comparing and contrasting uses of sentimental words and pronounces in different genres and results of analysis from each genre, the study is able to predictition of the genre of the text, based on sentimental words and pronounces the text contained.",
     "crumbs": [
       "README"
     ]
