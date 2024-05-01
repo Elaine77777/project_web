@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.552">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -258,7 +258,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">Apr 3, 2024</p>
+      <p class="date-modified">May 1, 2024</p>
     </div>
   </div>
     
@@ -267,7 +267,7 @@ div.csl-indent {
 <div>
   <div class="abstract">
     <div class="block-title">Abstract</div>
-    <p>Social media platforms, depending on their targeted users and fucntions, now have develop various genres for different types of posts, such as instagram posts, discussion posts on Quora, or short fictions fans posted to share and interact with each other in AO3. Some genres are similar to traditional writing genres, while some others do not. To maintain consistency in text analysis, online fictions, including fan fictions, will be employed to compare and contrast with traditional novels, fictions, and academic writing. This study aims to conduct a sentiment analysis across platforms, to compare and contrast the dominant sentiment in different platforms, and potentiall to analyze the reason behind the phenomenon.</p>
+    <p>Social media platforms, depending on their targeted users and topics of discussions, now have develop various genres for different types of posts, such as instagram posts, discussion posts on Quora, or short fictions fans posted to share and interact with each other in AO3. Some genres are similar to traditional writing genres, while some others do not. Depending on topics of discussion, the strongeness of sentiments of the posts may vary as well. For discussion topics like sports or race, foreseeable, words like “better,” “racist,” “ethical,” “right,” or “wrong” may appear frequently in the posts, but what about posts under other discussion topics. Can we eventually through calculate the sentimental level of the post can make speculations of which topics of discussion this post may be posted under? This study aims to conduct a sentiment analysis across topics of discussions, to compare and contrast the dominant sentiment under different topics, and potentiall to analyze the reason behind the phenomenon.</p>
   </div>
 </div>
 
@@ -283,25 +283,26 @@ div.csl-indent {
 
 <section id="introduction" class="level1">
 <h1>Introduction</h1>
-<p>This study is about sentiment levels of expressions in relation to platforms, whether the posted expressions are mainly super positive, positive, negative, or super negative. Internet has become an indispensable part of people’s life today, and different social media has different potential users. Twitter and Facebook often include a large spectrum of users, from seniors to teens, meanwhile, Instagram posts often are often targeted young audiences, etc. Yet, would different targeted users and potential audiences influence the sentiment level of the posts users post online? This is also what this project aims to find out.</p>
+<p>This study is about sentiment levels of expressions in relation to the topic of discussion, whether the posted expressions are mainly super positive, positive, negative, or super negative. Internet has become an indispensable part of people’s life today, and different topics of discussion has different potential users. Twitter, Facebook, and Reddit often include a large spectrum of users, from seniors to teens, meanwhile, Instagram posts often are often targeted young audiences, etc. Yet, would which topics users posted under and their potential audiences influence the sentiment level of the posts being posted online? This is also what this project aims to find out.</p>
 <section id="literature-review" class="level2">
 <h2 class="anchored" data-anchor-id="literature-review">Literature review</h2>
-<p>Balahur presents a method for sentiment analysis using Twitter data (tweets) as an example, taking into account their structure, length and specific language. The approach employed makes it easily extendible to other languages and makes it able to process tweets in near real time. The main contri- butions of this work are: a) the pre-processing of tweets to normalize the language and gener- alize the vocabulary employed to express sentiment; b) the use minimal linguistic process- ing, which makes the approach easily portable to other languages; c) the inclusion of higher order n-grams to spot modifications in the po- larity of the sentiment expressed; d) the use of simple heuristics to select features to be em- ployed; e) the application of supervised learn- ing using a simple Support Vector Machines linear classifier on a set of realistic data. Similar methods can be applied in analyzing data collected for this research <span class="citation" data-cites="JRC82012">A (<a href="#ref-JRC82012" role="doc-biblioref">2013</a>)</span>.</p>
+<p>Balahur presents a method for sentiment analysis using Twitter data (tweets) as an example, taking into account their structure, length and specific language. The approach employed makes it easily extendible to other languages and makes it able to process tweets in near real time. The main contributions of this work are: a) the pre-processing of tweets to normalize the language and generalize the vocabulary employed to express sentiment; b) the use minimal linguistic processing, which makes the approach easily portable to other languages; c) the inclusion of higher order n-grams to spot modifications in the polarity of the sentiment expressed; d) the use of simple heuristics to select features to be employed; e) the application of supervised learning using a simple Support Vector Machines linear classifier on a set of realistic data. Similar methods can be applied in analyzing data collected for this research <span class="citation" data-cites="JRC82012">A (<a href="#ref-JRC82012" role="doc-biblioref">2013</a>)</span>.</p>
 <p>The paper “OPINION EVENTS: TYPES AND OPINION MARKERS IN ENGLISH SOCIAL MEDIA DISCOURSE” by Barbara Lewandowska-Tomaszczyk investigates opinion events and opinion markers in English social media discourse. It explores various types of opinion events and identifies the linguistic markers used to express opinions in online discussions. The study employs a corpus-based approach to analyze social media data and identifies patterns in how opinions are expressed and shared on platforms like Twitter or Facebook. The paper provides insights into the structure and characteristics of opinion events in online discourse, shedding light on the role of language in shaping and disseminating opinions in the digital age <span class="citation" data-cites="LewandowskaTomaszczyk2023">Lewandowska-Tomaszczyk et al. (<a href="#ref-LewandowskaTomaszczyk2023" role="doc-biblioref">2023</a>)</span>.</p>
 <p>Andreotta presents a mixed-methods approach for analyzing social media data that integrates computational and qualitative text analysis techniques. The framework proposed in the paper combines quantitative methods such as machine learning and natural language processing with qualitative methods like thematic analysis and discourse analysis. This comprehensive approach enables researchers to gain deeper insights into social media data by combining the strengths of both computational and qualitative approaches. The paper discusses the rationale behind using mixed methods, outlines the steps involved in the framework, and provides examples of how it can be applied in social media research. Overall, the paper contributes to the methodological toolkit for studying social media phenomena by offering a systematic and flexible approach that leverages the complementary strengths of computational and qualitative analysis methods <span class="citation" data-cites="Andreotta2019">Andreotta et al. (<a href="#ref-Andreotta2019" role="doc-biblioref">2019</a>)</span>.</p>
-<p>Despot discusses the current automatic detection mechanism of offensive language and its shortcomings and how current situation can be improved. This study argues that current difficulties in detecting implicit offence are exacerbated by multiple factors: (a) inadequate definitions of implicit and explicit offense; (b) an insufficient typology of implicit offence; and (c) a dearth of detailed analysis of implicitly offensive linguistic data. In this study, based on a qualitative analysis of an implicitly offensive dataset, a new typology of implicitly offensive language is proposed along with a detailed, example-led account of the new typology, an operational definition of implicitly offensive language, and a thorough analysis of the role of figurative language and humour in each type. Our analyses identify three main issues with previous datasets and typologies used in NLP approaches: (a) conflating content and form in the annotation; (b) treating figurativeness, particularly metaphor, as the main device of implicitness, while ignoring its equally important role in the explicit offence; and (c) an over-focus on form-specific datasets (e.g.&nbsp;focusing only on offensive comparisons), which fails to reflect the full complexity of offensive language use. This article could be referential being applied to the filed of sentimental analysis, since sentiments are also subtle, contextual, and plausibly deniable. Through combining context and machine learning, computational analysis and detection mechanism may be more accurate inthe future <span class="citation" data-cites="Despot2023">Despot, Anić, and Veale (<a href="#ref-Despot2023" role="doc-biblioref">2023</a>)</span>.</p>
+<p>Despot discusses the current automatic detection mechanism of offensive language and its shortcomings and how current situation can be improved. This study argues that current difficulties in detecting implicit offence are exacerbated by multiple factors: (a) inadequate definitions of implicit and explicit offense; (b) an insufficient typology of implicit offence; and (c) a dearth of detailed analysis of implicitly offensive linguistic data. In this study, based on a qualitative analysis of an implicitly offensive dataset, a new typology of implicitly offensive language is proposed along with a detailed, example-led account of the new typology, an operational definition of implicitly offensive language, and a thorough analysis of the role of figurative language and humour in each type. Our analyses identify three main issues with previous datasets and typologies used in NLP approaches: (a) conflating content and form in the annotation; (b) treating figurativeness, particularly metaphor, as the main device of implicitness, while ignoring its equally important role in the explicit offence; and (c) an over-focus on form-specific datasets (e.g.&nbsp;focusing only on offensive comparisons), which fails to reflect the full complexity of offensive language use. This article could be referential being applied to the filed of sentimental analysis, since sentiments are also subtle, contextual, and plausibly deniable. Through combining context and machine learning, computational analysis and detection mechanism may be more accurate in the future <span class="citation" data-cites="Despot2023">Despot, Anić, and Veale (<a href="#ref-Despot2023" role="doc-biblioref">2023</a>)</span>.</p>
 </section>
 </section>
 <section id="methods" class="level1">
 <h1>Methods</h1>
-<p>Recalling that the aim of this study is to explore sentimental levels and pronouns of texts in relation to genre, units of observation here will be writings in various genres, and variables needed to explore will be: <strong>sentimental words</strong>, <strong>sentimental level of the word</strong> (Super positive/negative, positive/negative, or neutral), <strong>number of sentimental words contained</strong>, <strong>pronouns</strong> (first, second, or third), <strong>number of pronouns words contained</strong>, and <strong>genre of the text</strong> (fan fiction, novel, letters, email, academic writing, etc.). First, data will be pulled from social media and other types of textual corpora database. Then, the pulled texts will first be processed and needed variables will be extracted from the collected texts. Thirdly, subsets of data will be analyzed respectively to examine whether or not its results fit the hypothesis. Lastly, all the data and their correlation will be visualized.</p>
+<p>This study intended to use <strong>Exploratory Analysis</strong>: This type of analysis involves examining the data to understand its underlying structure, patterns, and relationships. Exploratory analysis techniques include summary statistics, data visualization (such as histograms, scatter plots, and box plots), and dimensionality reduction methods (like principal component analysis or t-distributed stochastic neighbor embedding). The goal is to gain insights into the data and formulate hypotheses for further investigation. Before conducting the research, we do not make predictions about topics users posted under in relation to sentimental level of the post. Yet, after taking a part of sample data to run the analysis and to explore the relations between the two variables, we may eventually apply this to a larger population.</p>
+<p>Recalling that the aim of this study is to explore sentimental levels and pronouns of texts in relation to genre, units of observation here will be writings in various genres, and variables needed to explore will be: <strong>topics</strong>, <strong>sentimental words</strong>, <strong>sentimental level of the word</strong> (Super positive/negative, positive/negative, or neutral), and <strong>number of sentimental words contained</strong>. First, data will be pulled from social media and other types of textual corpora database. Then, the pulled texts will first be processed and needed variables will be extracted from the collected texts. Thirdly, subsets of data will be analyzed respectively to examine whether or not its results fit the hypothesis. Lastly, all the data and their correlation will be visualized.</p>
 </section>
 <section id="data-preparation-analysis" class="level1">
 <h1>Data preparation &amp; Analysis</h1>
 <p><strong>Phase 1: Harvest social media data and compile a corpus</strong></p>
-<p>In this stage, automated tools can be used to query records of social media data, extract this data, and compile it into a corpus <span class="citation" data-cites="Andreotta2019">Andreotta et al. (<a href="#ref-Andreotta2019" role="doc-biblioref">2019</a>)</span>. Ideally, data from Twitter and Instagram will be collected: <a href="https://developer.twitter.com/en/docs/twitter-api">Twitter-API</a> and <a href="https://developers.facebook.com/docs/instagram-api">Facebook/Instagram</a>. Also ideally, similar amount of data from roughly the same time interval should be collected from each platform.</p>
+<p>In this stage, automated tools can be used to query records of social media data, extract this data, and compile it into a corpus <span class="citation" data-cites="Andreotta2019">Andreotta et al. (<a href="#ref-Andreotta2019" role="doc-biblioref">2019</a>)</span>. Ideally, data from Twitter and Instagram will be collected: <a href="https://www.reddit.com/wiki/api/">Reddit api</a>. Also ideally, similar amount of data from roughly the same time interval should be collected from each topics</p>
 <p><strong>Phase 2: Categorize and subset variables</strong></p>
-<p>An idealized structure for the topic modeling dataset is seen in <a href="#tbl-topic-ideal" class="quarto-xref">Table&nbsp;1</a>:</p>
+<p>Noted that: all the topics will be corresponded to a number, which will potentially make it easier for analysis later. An idealized structure for the topic modeling dataset is seen in <a href="#tbl-topic-ideal" class="quarto-xref">Table&nbsp;1</a>:</p>
 <div id="tbl-topic-ideal" class="quarto-float anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-topic-ideal-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -337,12 +338,18 @@ Table&nbsp;1: Idealized structure for the topic modeling dataset
 <td>Year of the Post</td>
 </tr>
 <tr class="odd">
+<td>topic</td>
+<td>Topic</td>
+<td>integer</td>
+<td>Unique identifier for each topic</td>
+</tr>
+<tr class="even">
 <td>type</td>
 <td>Word type</td>
 <td>character</td>
 <td>Individual words from the <code>text</code> variable</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>frequency</td>
 <td>Frequency</td>
 <td>integer</td>
@@ -356,15 +363,15 @@ Table&nbsp;1: Idealized structure for the topic modeling dataset
 <p>First, all the extracted data will be given a unique identifier and the date, the year, the post is published will also be recorded. Then, using the method of sentiment analysis, we tokenize all the text and filter all the variables that are necessary need for this project to reduce some complexity. With the <code>frequency</code>, content words with highest frequency may also be observed in this project.</p>
 <p>Then, introducing the <code>bing</code> lexicon, all the sentiment words will be extracted from the text and classified into the basic categories, using the method of sentiment analysis. The average level of sentiments in each platform will be calculated. Each level of sentiments will be assigned a distinct value (<em>E.g. Super positive/negative-1, positive/negative-0.5, neutral-0</em>). Now introducing the <code>left_join()</code> function, it will be “attach” the <code>sentiment</code> column to the original dataset.</p>
 <p><strong>Phase 3: Analyze and visualize</strong></p>
-<p>First, using sum of all the values in each text to divide the total number of sentimental words will be the average strong level of sentimental words in the text, and using this value, the average strong level of words in each platform and words with highest frequency will then be found. Tables representing sentimental level of text in relation of genre can then be drawn. Similarly, tables that visualize relation between platform and preference in the use of content words. The strong level of sentimental words in each platform will be displayed, which will either prove or falsify the hypothesis.</p>
+<p>First, using sum of all the values in each text to divide the total number of sentimental words will be the average strong level of sentimental words in the text, and using this value, the average strong level of words under each topics and words with highest frequency will then be found. Tables representing sentimental level of text in relation of genre can then be drawn. Similarly, tables that visualize relation between topics and preference in the use of content words. The strong level of sentimental words under each topics will be displayed, which will either prove or falsify the hypothesis.</p>
 </section>
 <section id="expected-results" class="level1">
 <h1>Expected results</h1>
-<p>Formal academic writing is more likely to use third-person pronouns and neutral level of sentimental words, compared to fan fiction/ If the the text employ more first/second pronouns with the use of strong level of sentimental words, it is likely to be fiction.</p>
+<p>Does not necessary have an expected result, just that posts under the topics about sports, ethics, or race, which often have a potentially, factually, or politically “correct” answer or opinion may have higher sentiment value on average.</p>
 </section>
 <section id="communication-plan" class="level1">
 <h1>Communication plan</h1>
-<p>The intended audience for the study can be anyone who is interested in linguistics, or anyone who wants to explore how genre may influence writers’ word choices in the use of pronouns and sentimental words. The results of the study will be presented orally and visually in class, and the html version of the study will be open-source for the public, which audiences may find in github.</p>
+<p>The intended audience for the study can be anyone who is interested in linguistics, or anyone who wants to explore how topics of discussion may influence writers’ word choices in the use of sentimental words. The results of the study will be presented orally and visually in class, and the html version of the study will be open-source for the public, which audiences may find in github.</p>
 </section>
 <section id="conclusion" class="level1">
 <h1>Conclusion</h1>
@@ -397,16 +404,21 @@ Lewandowska-Tomaszczyk, Barbara, Chaya Liebeskind, Anna Bączkowska, Jurate Ruza
   url = {https://username.github.io/repo/reports/prospectus.html},
   langid = {en},
   abstract = {Social media platforms, depending on their targeted users
-    and fucntions, now have develop various genres for different types
-    of posts, such as instagram posts, discussion posts on Quora, or
-    short fictions fans posted to share and interact with each other in
-    AO3. Some genres are similar to traditional writing genres, while
-    some others do not. To maintain consistency in text analysis, online
-    fictions, including fan fictions, will be employed to compare and
-    contrast with traditional novels, fictions, and academic writing.
-    This study aims to conduct a sentiment analysis across platforms, to
-    compare and contrast the dominant sentiment in different platforms,
-    and potentiall to analyze the reason behind the phenomenon.}
+    and topics of discussions, now have develop various genres for
+    different types of posts, such as instagram posts, discussion posts
+    on Quora, or short fictions fans posted to share and interact with
+    each other in AO3. Some genres are similar to traditional writing
+    genres, while some others do not. Depending on topics of discussion,
+    the strongeness of sentiments of the posts may vary as well. For
+    discussion topics like sports or race, foreseeable, words like
+    “better,” “racist,” “ethical,” “right,” or “wrong” may appear
+    frequently in the posts, but what about posts under other discussion
+    topics. Can we eventually through calculate the sentimental level of
+    the post can make speculations of which topics of discussion this
+    post may be posted under? This study aims to conduct a sentiment
+    analysis across topics of discussions, to compare and contrast the
+    dominant sentiment under different topics, and potentiall to analyze
+    the reason behind the phenomenon.}
 }
 </code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-lu" class="csl-entry quarto-appendix-citeas" role="listitem">
 Lu, Elaine. n.d. <span>“Prospectus.”</span> <a href="https://username.github.io/repo/reports/prospectus.html">https://username.github.io/repo/reports/prospectus.html</a>.
